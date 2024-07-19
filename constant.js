@@ -1,0 +1,48 @@
+export const TilesArr = [
+  {
+    id: 1,
+    url: require("./components/resources/images/Tiles/residential.jpg"),
+    alt: "residential",
+    tileName: "residentialTiles",
+    EC: 2,
+    CO: 1,
+  },
+  {
+    id: 2,
+    url: require("./components/resources/images/Tiles/commercial.jpg"),
+    alt: "commercial",
+    tileName: "commercialTiles",
+    EC: 4,
+    CO: 1,
+  },
+  {
+    id: 3,
+    url: require("./components/resources/images/Tiles/industrial.jpg"),
+    alt: "industrial",
+    tileName: "industrialTiles",
+    EC: 5,
+    CO: 3,
+  },
+  {
+    id: 4,
+    url: require("./components/resources/images/Tiles/greenSpaces.jpg"),
+    alt: "greenSpaces",
+    tileName: "greenTiles",
+    EC: 1,
+    CO: -2,
+  },
+  // {
+  //   id: 5,
+  //   url: require("./resources/images/Tiles/gold.jpg"),
+  //   alt: "gold tile",
+  //   tileName: "goldTiles",
+  //   EC: 0,
+  //   CO: 0,
+  // },
+];
+
+// residentialTiles: 0,
+// commercialTiles: 0,
+// industrialTiles: 0,
+// greenTiles: 0,
+// goldTiles: 0,
